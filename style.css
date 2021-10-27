@@ -1,0 +1,102 @@
+/*colors and fonts */
+
+body {
+	background-color: #F0E3CA;
+	color : black;
+	font-family: arial; 
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px
+}
+
+
+h1 {
+	color: #483434;
+	font-weight: bolder;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+	font-size: 35px;
+	letter-spacing: 1px
+}
+
+h2 {
+	color: #6B4F4F;
+	font-weight: bold;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: #c99c7e;
+	font-weight: bolder;
+	transition: color 0.15s ease;
+}
+
+a:hover {
+	color: white;
+
+}
+
+div {
+	border: 4px solid #ECDCC9;
+	background: rgba(255,255,255,0.7);
+	border-radius: 20px;
+	box-shadow: 2px 2px 3px rgba(71,19,35, 0.6);
+	padding: 20px 30px;
+	width: 960px;
+	height: 40px auto;
+	margin : auto;
+	margin-top: 60px;
+}
+
+@media (max-width: 760px) {
+	div { 
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	div { 
+		width: 400px;
+	}
+}
+
+.img-circle {
+	border-radius: 100%;
+}
+
+.img-circle:hover {
+	width: 200px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+.btn-round {
+	background-color: white;
+	padding: 12px 17px;
+	border-radius: 20px;
+}
+
+.btn-round:hover {
+	background-color: #c99c7e;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+}
+
+#list-socialmedia li{
+	display: inline;
+	letter-spacing: 15px;
+	font-size: 35px;
+	list-style: none;
+
+}
